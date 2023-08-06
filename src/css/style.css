@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Souce Sans Pro", sans-serif;
+}
+
+body{
+    color: #3d3d3d;
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+    color: #3d3d3d;
+}
+
+header{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #d5d5d5;
+}
+
+header .cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    padding: 0 10px;
+}
+
+header ul{
+    display: flex;
+    list-style-type: none;
+}
+
+header .cabecalho a{
+    margin-right: 40px;
+    font-size: 24px;
+}
+
+header a span{
+    color: #6592c9;
+}
+
+header ul a{
+    text-transform: uppercase;
+    line-height: 18px;
+    padding: 0 15px 10px 15px;
+}
+
+header ul a:hover{
+    border-bottom: 3px solid #6592c9;
+}
+
+.banner{
+    background-image: url("../img/img-fundo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner .descricao-banner{
+    color: white;
+    background-color: #0a9077b3;
+    border: 1px solid;
+    padding: 0 20px;
+    border-radius: 4px;
+    font-size: 28px;
+    text-align: center;
+}
+
+.banner .descricao-banner h1, .banner .descricao-banner p{
+    padding: 30px 0;
+}
+
+.introducao, .opcoes a p{
+    text-align: center;
+}
+
+.descricao h2{
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 32px;
+    padding: 10px 0;
+}
+
+.descricao p{
+    font-size: 16px;
+}
+
+.tamanho-maximo{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.descricao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    line-height: 42px;
+    height: 200px;
+}
+
+.opcoes-quartos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.opcoes{
+    margin: 0 10px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #00836a;
+}
+
+img, iframe{
+    width: 100%;
+}
+
+.centralizar{
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.opcoes a{
+    font-size: 32px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.pontos-pousada{
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pontos-turisticos{
+    display: flex;
+    width: 45%;
+    margin: 0 10px;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.descricao-pontos{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex: 1 1 auto;
+}
+
+.pontos-turisticos img{
+    width: 100px;
+    height: 113px;
+    object-fit: cover;
+    margin-left: 10px;
+}
+
+footer{
+    background-color: #49997d;
+    color: white;
+}
+footer h4{
+    font-size: 22px;
+}
+
+footer a{
+    color: white;
+}
+
+.meios-contato{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contatos img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.contatos, .telefone{
+    width: 23%;
+    display: flex;
+    align-items: center;
+}
+
+.contatos a{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.direitos-autorais{
+    width: 100%;
+    padding: 20px;
+    border-top: 1px solid #3b7863;
+    font-weight: 600;
+    text-align: center;
+}

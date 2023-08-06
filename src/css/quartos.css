@@ -1,0 +1,28 @@
+.banner{
+    height: 30vh;
+}
+
+.opcoes{
+    width: 300px;
+    border: none;
+}
+
+h3{
+    text-align: center;
+}
+
+.informacoes ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.informacoes li{
+    width: 25%;
+    text-align: left;
+    margin-top: 10px;
+}
+
+footer{
+    margin-top: 30px;
+}
